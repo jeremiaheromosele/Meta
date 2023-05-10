@@ -1,0 +1,123 @@
+/* Properties for other selectors */
+*{
+    font-family: Monaco;
+}
+body{
+    background-color: #1e1e1e7e;
+}
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: mymove 15s linear;
+    animation-direction: alternate-reverse;
+    position: relative;
+}
+@keyframes mymove {
+    from {right: 0px;}
+    to {right: 850px;}
+  }
+.menu, .ll{
+    border: dashed 2px rgba(22, 22, 21, 0.515);
+    background-color: #495E57;
+    border-radius: 20px;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    font-size:  xx-large;
+    font-weight: bolder;
+    text-align: center;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+    animation: mymove2 15s linear;
+    position: relative;
+    animation-direction: alternate-reverse;
+}
+@keyframes mymove2 {
+    from {left: 0px; color: #faefef;}
+    to {left: 690px; color: rgba(33, 33, 33, 0.995);}
+}
+
+.ll{
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #495E57;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    background-color:#08ae5049;
+    background: url("whinelocation.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 10px;
+  border: dashed 1px black;
+  animation: mymove3 15s linear;
+  animation-direction: alternate-reverse;
+}
+@keyframes mymove3 {
+    from {right: 0px;}
+    to {right: 850px;}
+  }
+
+/* Add rules for the steps mentioned below */
+.section{
+    padding: 100px;
+    
+}
+.label{
+    font-weight: bold;
+    color:#E0E0E2;
+}
+.description{
+    font-style: italic;
+    border-top: 2px solid  white;
+    color: aqua;
+}
+
+.item-name{
+    display: block;
+    margin: 25px;
+    font-size: 12px;
+    text-align: center;
+}
+b{
+    float: right;
+    margin-top: -15px;
+    color:white;
+}
+div > h3{
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+.label + .low{
+    color: white;
+}
+div ~ div{
+    color: rgb(90, 90,90);
+}
+footer{
+    display: flex;
+    border: 200px;
+    margin-top: 1rem;
+}
+ footer div{
+    flex: 1;
+    margin-left:1rem;
+ }
+ .copyright{
+    border-top: solid 1px black;
+    text-align: right
+ }
+ .copyright > p{
+    margin-top: 1px;
+    color: black;
+ }
+ .meal-type1{
+    display: block;
+    text-align: left;
+ }

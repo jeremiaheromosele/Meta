@@ -1,0 +1,118 @@
+body{
+    background-color: #E0E0E2;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #000000;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+header > img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+article > img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+nav{
+    border: solid 1px #000000a6;
+    border-radius: 20px;
+    background-color: #0000009d;
+    font-size: large;
+    font-weight: 2rem;
+    font-style: normal;
+    margin-top: 1rem;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;   
+}
+nav li{
+    display:inline-block;
+    border-bottom: none; 
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-flow: initial;
+}
+article{
+    flex: 1;
+}
+.menu > article{
+    height: 430px;
+    border-radius: 20px;
+    border: solid peachpuff;
+    background-color: peachpuff;
+    margin-top: 1rem;
+    text-align: center;
+    margin: 1rem;
+}
+footer{
+    display: flex;
+    border: 200px;
+    margin-top: 1rem;
+}
+ footer div{
+    flex: 1;
+    margin-left:1rem;
+ }
+ .copyright{
+    margin-right: 25px;
+    border-top: solid 1px #000000;
+    text-align: right
+ }
+ .copyright > p{
+    margin-top: 1px;
+ }
+.promo{
+    border: solid 1px #000000 ;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    background: url("pasta6.jpg") ;
+    height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.promo-text{
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    margin-left: 1rem;
+
+}
+.discription{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    word-spacing: normal;
+    
+}
+.tags{
+    margin-top: 3rem;
+    margin-left: 10px;
+    text-align: left;
+}
+.tagsb{
+    color: blue;
+}
+a:hover{
+    color:red;
+    text-decoration:underline;
+}
+.dog{
+    color:whitesmoke;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 1rem;
+}
